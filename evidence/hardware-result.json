@@ -1,0 +1,24 @@
+{
+  "as_of": "2026-10-15",
+  "tested_units": 1,
+  "preferred_candidate": "penesas_uncompacted",
+  "catalog_entries": 180,
+  "original_records_preserved_byte_identical": 179,
+  "controls_user_verified": [
+    "Gain",
+    "Tone",
+    "Volume"
+  ],
+  "bypass_user_verified": true,
+  "preset_power_cycle_user_verified": true,
+  "persisted_controls_reported": [
+    50,
+    100,
+    100
+  ],
+  "post_uncompacted_audio_user_report": "Effects tested by owner reported working correctly",
+  "flash_readback": false,
+  "maximum_library_partition_bytes": null,
+  "cause_of_Windows11_failure": null,
+  "evidence_scope": "User physical tests plus independently parsed USB capture and offline emulation; no universal model/version compatibility claim"
+}

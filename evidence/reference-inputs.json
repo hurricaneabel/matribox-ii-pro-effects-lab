@@ -1,0 +1,22 @@
+{
+  "scope": "Local user-supplied inputs; no firmware bytes distributed",
+  "inputs": [
+    {
+      "model": "Matribox II Pro",
+      "version": "1.1.4",
+      "bytes": 6117552,
+      "sha256": "a4d4b8567dca9713c4669ab42b0d5aef5af0b2f1a2167fd3d49499125bdf1280"
+    },
+    {
+      "model": "Matribox II Pro",
+      "version": "1.2.2",
+      "bytes": 6335008,
+      "sha256": "d9ebcb8d368c0c81a2c104b1853ae1de57a5dc86ac3d5c2aff3623ce13dc64a7"
+    },
+    {
+      "model": "Valeton GP-200",
+      "version": "1.8.2",
+      "sha256": "c368618773097b07c556c951eb10792f9d57be929323366648eb6e083d0d23af"
+    }
+  ]
+}

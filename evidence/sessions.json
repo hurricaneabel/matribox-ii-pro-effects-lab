@@ -1,0 +1,53 @@
+[
+  {
+    "role": "original_library",
+    "capture_bytes": 8822860,
+    "capture_sha256": "9f2408e5ad6812f95a6f156b6c30fa59f5dc8c13b675b84e55e519e33c857486",
+    "data_packets": 11916,
+    "data_bytes": 2144848,
+    "padding_bytes": 32,
+    "payload_sha256": "94743693aa9a663d7ca0df6448c55169f6fd1a948ae21c642620cee07362a25d",
+    "selectors": [
+      16
+    ],
+    "positive_data_acks": 11916,
+    "negative_acks": 0,
+    "finish_ack_received": true,
+    "physical_flash_readback": false,
+    "raw_capture_distributed": false
+  },
+  {
+    "role": "penesas_compacted",
+    "capture_bytes": 8822560,
+    "capture_sha256": "e62fdaf7c57a869bebcf4d06bc01ebecda3442c9fe257e1c218b7b4192393db9",
+    "data_packets": 11916,
+    "data_bytes": 2144848,
+    "padding_bytes": 32,
+    "payload_sha256": "7860f6ced0dfd2bd873d52fb056dd0b1764a7071da3c68f5e37949293b5d0f78",
+    "selectors": [
+      16
+    ],
+    "positive_data_acks": 11916,
+    "negative_acks": 0,
+    "finish_ack_received": true,
+    "physical_flash_readback": false,
+    "raw_capture_distributed": false
+  },
+  {
+    "role": "penesas_uncompacted",
+    "capture_bytes": 8898780,
+    "capture_sha256": "12555854e7c99f330125240e9f7be77d8adef62fb4891cf519eaae1c4cab0e25",
+    "data_packets": 12019,
+    "data_bytes": 2163372,
+    "padding_bytes": 48,
+    "payload_sha256": "72bba28a4239737d63e6a75b6762580dc77c4890de7b0ace81949995a9f6e6ac",
+    "selectors": [
+      16
+    ],
+    "positive_data_acks": 12019,
+    "negative_acks": 0,
+    "finish_ack_received": true,
+    "physical_flash_readback": false,
+    "raw_capture_distributed": false
+  }
+]
