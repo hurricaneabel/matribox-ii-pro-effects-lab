@@ -1,0 +1,16 @@
+{
+  "physical_test_reported_success_by_user": true,
+  "log_sha256": "1a9ced9754619e513bba25babcb7be75cbdbc22c9bfad3f552d30acc5901dbc5",
+  "messages": 57,
+  "undo_events": 5,
+  "redo_events": 5,
+  "all_messages_changed": true,
+  "states": [
+    0,
+    1,
+    3,
+    4,
+    5
+  ],
+  "note": "Native history flag persists after clear while state is EMPTY; availability must be gated by actual looper state. Snapshot transitions are not a button press counter."
+}

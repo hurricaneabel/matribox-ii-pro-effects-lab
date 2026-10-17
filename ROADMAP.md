@@ -16,7 +16,9 @@
 - [x] Ampliar ao User IR, mantendo importação intacta; funcionamento físico relatado.
 - [x] Remover Mic Lab separado da MOD, mantendo os outros índices.
 - [ ] Ampliar confirmação física e documentar cenários específicos de persistência/importação em User IR.
-- [ ] Investigar emissão de estado do looper por SysEx; nenhuma implementação disponível ainda.
+- [x] Implementar e testar retorno SysEx do looper, cinco controles e undo/redo, sem heartbeat periódico.
+- [x] Preparar prerelease experimental V4 com firmware completo e monitor.
+- [ ] Integrar o protocolo ao frontend, considerando VAZIO e limites das transições.
 
 ## Próximas investigações
 

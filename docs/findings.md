@@ -36,3 +36,11 @@ Os resumos públicos estão em [evidence/](../evidence/). Capturas completas e d
 ## Atualização: microfones em cabinets e User IR — 17/10/2026
 
 A referência local mais recente passou a integrar os filtros no CAB e User IR, com nomes e X/Y/Z, removendo o módulo separado. O proprietário confirmou 20 cabinets e depois os IRs importados. A candidata tem 189 registros; não se aplica a ela a afirmação histórica de que todos os 179 registros originais são intactos, pois os registros CAB e User IR foram modificados. Detalhes e limites em [cabinet-microphones.md](cabinet-microphones.md), com [resumo de evidência](../evidence/microphones-hardware-result.json).
+
+## Looper SysEx V4 — 17/10/2026
+
+O proprietário confirmou funcionamento físico de estados, controles e undo/redo. O log contém 57 mensagens com cinco UNDO e cinco REDO. Sem resumos periódicos; mudanças internas de histórico durante overdub também geram eventos. Veja [protocolo, instalação e limites](looper-sysex.md).
+
+## Looper SysEx V4 — 17/10/2026
+
+O proprietário confirmou funcionamento físico de estados, controles e undo/redo. O log contém 57 mensagens com cinco UNDO e cinco REDO. Sem resumos periódicos; mudanças internas de histórico durante overdub também geram eventos. Veja [protocolo, instalação e limites](looper-sysex.md).
