@@ -9,6 +9,15 @@
 - [x] Confirmar transferência da candidata sem compactação, com 179 registros originais idênticos.
 - [x] Publicar ferramentas offline reproduzíveis e hashes de evidência.
 
+## Atualização de 17/10/2026
+
+- [x] Integrar a camada de microfone/posição ao CAB, com nomes no Mic Type.
+- [x] Ampliar aos 61 cabinets de fábrica; 20 confirmados fisicamente pelo proprietário.
+- [x] Ampliar ao User IR, mantendo importação intacta; funcionamento físico relatado.
+- [x] Remover Mic Lab separado da MOD, mantendo os outros índices.
+- [ ] Ampliar confirmação física e documentar cenários específicos de persistência/importação em User IR.
+- [ ] Investigar emissão de estado do looper por SysEx; nenhuma implementação disponível ainda.
+
 ## Próximas investigações
 
 - [ ] Estabelecer limite reservado à biblioteca e política de apagamento do bootloader.
@@ -20,6 +29,6 @@
 - [ ] Consolidar ferramenta de empacotamento/validação; avaliar posteriormente um gerenciador.
 - [ ] Rever separadamente a publicação de um executor físico com suporte a logs, interrupções e recuperação.
 
-B-Chorus, B-Boost, C-Wah e Green OD serviram como controles de reconstrução na fase de emulação. Isso não transforma automaticamente qualquer módulo de outra pedaleira em compatível. Nenhum outro port físico é prometido nesta versão.
+B-Chorus, B-Boost, C-Wah e Green OD serviram como controles de reconstrução na fase de emulação. Isso não transforma automaticamente qualquer módulo de outra pedaleira em compatível. Os resultados físicos posteriores estão descritos em [microfones e User IR](docs/cabinet-microphones.md); os controles de reconstrução não estabelecem compatibilidade universal.
 
 Não usar preenchimento progressivo da flash como substituto para identificar as regiões. Novas versões/hardware precisam ser tratadas como alvos diferentes até haver evidência.

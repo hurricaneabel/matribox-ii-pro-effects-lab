@@ -32,3 +32,7 @@ Hash do tráfego USB não é uma leitura independente da flash. Igualdade com o 
 A primeira tentativa isolada sem aviso inicial de versão recebeu recusa no anúncio. A tentativa com aviso aceitou dois pacotes e recusou o terceiro; o fechamento MIDI apresentou também uma exceção posterior. Os bytes gerados coincidiam com a captura bem-sucedida e com o parcelador nativo. A recuperação pelo firmware original completo no editor oficial do Windows 10 foi relatada como bem-sucedida. O ensaio no Windows 10 da VM depois completou a sessão isolada. Ambiente, transporte, contexto e versão de Python variaram; a causa específica da falha não foi estabelecida.
 
 Os resumos públicos estão em [evidence/](../evidence/). Capturas completas e dados privados permanecem locais.
+
+## Atualização: microfones em cabinets e User IR — 17/10/2026
+
+A referência local mais recente passou a integrar os filtros no CAB e User IR, com nomes e X/Y/Z, removendo o módulo separado. O proprietário confirmou 20 cabinets e depois os IRs importados. A candidata tem 189 registros; não se aplica a ela a afirmação histórica de que todos os 179 registros originais são intactos, pois os registros CAB e User IR foram modificados. Detalhes e limites em [cabinet-microphones.md](cabinet-microphones.md), com [resumo de evidência](../evidence/microphones-hardware-result.json).

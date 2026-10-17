@@ -1,0 +1,25 @@
+{
+  "as_of": "2026-10-17",
+  "tested_units": 1,
+  "evidence_type": "user physical reports and local offline emulation; no flash readback",
+  "factory_cabinets": {
+    "total": 61,
+    "physically_tested_reported": 20,
+    "microphones_and_positions_reported_working": true
+  },
+  "user_IR": {
+    "reported_working": true,
+    "count": null,
+    "import_retest_explicitly_confirmed": false,
+    "save_power_cycle_explicitly_confirmed_in_final_report": false
+  },
+  "catalog_entries": 189,
+  "separate_MOD_microphone_removed": true,
+  "latest_local_firmware_sha256": "66767cb4530105c6effaed57871944c5d19798fbcc5de27cb25a798963a24a5b",
+  "all_factory_cabs_local_firmware_sha256": "bf32544f7ad8cf6a51d472aa4402f9b788dee678b0e18129cc6573ea2c10b1a3",
+  "latest_local_library_sha256": "7159e794ffe38b5192622b14a1439c22262a19b1f1be5f9fb6082d5bf69b5ef9",
+  "main_unchanged_from_all_factory_cabs_candidate": true,
+  "import_code_unchanged": true,
+  "other_library_records_unchanged_from_previous_candidate": 188,
+  "looper_sysex_state": "not implemented"
+}

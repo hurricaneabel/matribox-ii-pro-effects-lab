@@ -2,12 +2,15 @@
 
 Pesquisa independente sobre o catálogo de efeitos, firmware e protocolo USB da **SONICAKE Matribox II Pro**, incluindo um port experimental do **Penesas da Valeton GP-200**.
 
-**Resultado confirmado em uma unidade:** o Penesas foi acrescentado como nova entrada, sem substituir efeitos existentes. Gain, Tone, Volume, bypass e persistência em preset foram testados pelo proprietário. Uma biblioteca sem compactação preserva integralmente os 179 registros originais e acrescenta o Penesas, totalizando 180 entradas. A captura USB dessa sessão foi verificada offline.
+**Referência experimental atual (17/10/2026):** microfones integrados nos cabinets de fábrica e nos IRs importados, com nomes no Mic Type e controles X/Y/Z. O proprietário confirmou 20 dos 61 cabinets, alternando microfones e posições, e depois confirmou funcionamento nos User IR. A candidata local tem 189 registros e remove o módulo de microfone separado da MOD. Veja [resultados, implementação e limites](docs/cabinet-microphones.md).
+
+O Penesas também foi testado com Gain, Tone, Volume, bypass e persistência em preset. Sua reconstrução offline sem compactação permanece publicada como experimento reproduzível separado, com 179 registros originais intactos e 180 entradas totais.
 
 Isso é um resultado experimental específico, não uma confirmação de compatibilidade de todos os efeitos, modelos ou versões de firmware. O limite máximo da região de biblioteca ainda é desconhecido. Os 8 MiB de flash configurados no firmware não são uma medida de espaço livre.
 
 ## O que está publicado
 
+- [Microfones nos cabinets e User IR](docs/cabinet-microphones.md).
 - [Resultados e fontes de evidência](docs/findings.md).
 - [Formato FRMW e catálogo](docs/firmware-format.md).
 - [Protocolo USB observado](docs/usb-protocol.md).
@@ -42,13 +45,14 @@ Para reproduzir a candidata **offline**, consulte [docs/penesas.md](docs/penesas
 | Penesas | Testado no aparelho pelo proprietário |
 | 179 registros originais na candidata sem compactação | Idênticos byte por byte |
 | Capacidade máxima para novos efeitos | Em investigação |
-| Outros ports e gerenciador público | Planejados; sem promessa de compatibilidade |
+| Microfones integrados em cabinets e User IR | Testes físicos relatados; [escopo e limites](docs/cabinet-microphones.md) |
+| Gerenciador público e retorno SysEx do looper | Ainda não implementados |
 
 As sessões físicas bem-sucedidas documentadas usaram Windows 10 em VM com USB conectado ao convidado. Houve uma falha anterior no host Windows 11; sua causa não foi isolada. Não se conclui que todo Windows 11 seja incompatível.
 
 ## English overview
 
-Independent SONICAKE Matribox II Pro firmware and effect-catalog research. An experimental Valeton GP-200 Penesas port was tested on one physical unit. Offline tools reproduce the documented library from user-supplied firmware inputs; no vendor firmware or ready-to-flash library is distributed. See the source, evidence hashes and limitations before attempting to generalize the result.
+Independent SONICAKE Matribox II Pro firmware and effect-catalog research. Integrated microphone filters were reported working on 20 factory cabinets and on user-imported IRs; see [scope and evidence](docs/cabinet-microphones.md). An experimental Valeton GP-200 Penesas port was tested on one physical unit. Offline tools reproduce the documented library from user-supplied firmware inputs; no vendor firmware or ready-to-flash library is distributed. See the source, evidence hashes and limitations before attempting to generalize the result.
 
 ## Licença e autoria
 
