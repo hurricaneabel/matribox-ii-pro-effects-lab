@@ -1,0 +1,36 @@
+{
+  "stage": "Full firmware update on Windows 11 reported successful by owner",
+  "normal_mode_driver_before": {
+    "inf": "usbmidi2.inf",
+    "service": "USBMidi2",
+    "version": "10.0.26100.9549"
+  },
+  "normal_mode_driver_after": {
+    "inf": "wdma_usb.inf",
+    "service": "usbaudio",
+    "version": "10.0.26100.9457"
+  },
+  "asio_unchanged": "Sonicake 5.57.1.32989",
+  "windows_build": "26300.9711",
+  "windows_release": "26H2",
+  "before_read_query_succeeded": true,
+  "after_read_query_succeeded": true,
+  "firmware_transfer_tested": true,
+  "sources": [
+    "https://www.sonicake.com/pages/stuck-updating-support",
+    "https://www.sonicake.com/pages/matribox-ii-pro-software-firmware-1"
+  ],
+  "cause_not_yet_established": true,
+  "device_power_cycle_required_in_this_trial": true,
+  "boot_mode_usb_id": "84EF:0283",
+  "boot_mode_driver_after": {
+    "inf": "wdma_usb.inf",
+    "service": "usbaudio",
+    "version": "10.0.26100.9457"
+  },
+  "boot_identity_query_succeeded": true,
+  "full_update_success_reported_by_user": true,
+  "transferred_firmware_sha256": "00d1f50553be869af12fdf8d28533b13d477d126722f589f0e581c7e20060b41",
+  "usb_capture_of_this_update_analyzed": false,
+  "conclusion": "Switching both normal and boot-mode MIDI device drivers to usbaudio, followed by reconnection/restart, was followed by a successful official-updater full firmware update on this Windows 11 host. Not an isolated proof that driver was the sole cause."
+}

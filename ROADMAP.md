@@ -34,3 +34,7 @@
 B-Chorus, B-Boost, C-Wah e Green OD serviram como controles de reconstrução na fase de emulação. Isso não transforma automaticamente qualquer módulo de outra pedaleira em compatível. Os resultados físicos posteriores estão descritos em [microfones e User IR](docs/cabinet-microphones.md); os controles de reconstrução não estabelecem compatibilidade universal.
 
 Não usar preenchimento progressivo da flash como substituto para identificar as regiões. Novas versões/hardware precisam ser tratadas como alvos diferentes até haver evidência.
+
+## Atualização direta no Windows 11 — 17/10/2026
+
+- [x] Confirmar atualização completa da Lab V4 após trocar o driver MIDI nos modos normal e firmware; [procedimento](docs/windows11-update.md).

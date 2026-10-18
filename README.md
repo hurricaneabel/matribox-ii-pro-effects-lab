@@ -12,7 +12,9 @@ Isso é um resultado experimental específico, não uma confirmação de compati
 
 ## O que está publicado
 
+- [Atualização no Windows 11: driver nos dois modos](docs/windows11-update.md).
 - [Looper SysEx e instalação da V4](docs/looper-sysex.md).
+- [Atualização no Windows 11: driver nos dois modos](docs/windows11-update.md).
 - [Looper SysEx e instalação da V4](docs/looper-sysex.md).
 - [Microfones nos cabinets e User IR](docs/cabinet-microphones.md).
 - [Resultados e fontes de evidência](docs/findings.md).
@@ -53,7 +55,7 @@ Para reproduzir a candidata **offline**, consulte [docs/penesas.md](docs/penesas
 | Retorno SysEx do looper e undo/redo | Testado fisicamente; [protocolo e limites](docs/looper-sysex.md) |
 | Gerenciador público de efeitos | Ainda não implementado |
 
-As sessões físicas bem-sucedidas documentadas usaram Windows 10 em VM com USB conectado ao convidado. Houve uma falha anterior no host Windows 11; sua causa não foi isolada. Não se conclui que todo Windows 11 seja incompatível.
+As sessões iniciais usaram Windows 10 em VM. Em 17/10/2026, uma atualização completa da Lab V4 também foi confirmada diretamente no Windows 11, após selecionar o driver USB Audio Device nas interfaces MIDI dos modos normal e firmware. Veja [o procedimento e os limites](docs/windows11-update.md).
 
 ## English overview
 

@@ -6,7 +6,7 @@ O log do ensaio tem 57 mensagens, todas marcadas como mudanças, com cinco trans
 
 ## Instalar e testar
 
-Baixe a prerelease V4 na [aba Releases](https://github.com/hurricaneabel/matribox-ii-pro-effects-lab/releases). É um firmware experimental completo para **Matribox II Pro**, baseado no oficial V1.2.2; não é para Matribox II nem outros modelos. Foi testado em uma unidade, usando o atualizador oficial 1.2.0 em Windows 10 numa VM com USB atribuído ao convidado. A causa da falha anterior no Windows 11 não foi isolada.
+Baixe a prerelease V4 na [aba Releases](https://github.com/hurricaneabel/matribox-ii-pro-effects-lab/releases). É um firmware experimental completo para **Matribox II Pro**, baseado no oficial V1.2.2; não é para Matribox II nem outros modelos. Foi testado em uma unidade, usando o atualizador oficial 1.2.0 em Windows 10 numa VM com USB atribuído ao convidado. Posteriormente, a atualização completa também foi confirmada diretamente no Windows 11 após configurar o driver nos dois modos; veja o [guia Windows 11](windows11-update.md).
 
 Preserve um backup de presets, os arquivos IR/NAM e o firmware original para recuperação. Com a pedaleira em modo firmware, selecione o BIN no atualizador oficial e deixe concluir. Para retornar, use o firmware original completo pelo atualizador oficial. A preservação de dados em outras unidades não está garantida. O pacote não inclui um gravador próprio.
 
@@ -17,7 +17,7 @@ python monitor_looper_sysex.py --self-test
 python monitor_looper_sysex.py
 ```
 
-O monitor abre a entrada e envia uma única consulta de leitura, depois escuta. `--list` lista portas; `--input` e `--output` escolhem nomes exatos; `--no-query` desativa a consulta inicial. Se o Windows recusar abrir a porta, feche outros programas MIDI e reconecte o USB à VM antes de tentar novamente. Não é necessário regravar firmware por esse erro de abertura.
+O monitor abre a entrada e envia uma única consulta de leitura, depois escuta. `--list` lista portas; `--input` e `--output` escolhem nomes exatos; `--no-query` desativa a consulta inicial. Se o Windows recusar abrir a porta, feche outros programas MIDI e reconecte o USB ao sistema escolhido (Windows 11 principal ou VM) antes de tentar novamente. Não é necessário regravar firmware por esse erro de abertura.
 
 Grave uma base, faça overdub, termine o overdub e acione undo/redo. O monitor identifica as transições e grava JSONL. Não há envio periódico. Durante overdub, mudanças do índice nativo de histórico podem gerar mensagens legítimas mesmo sem mexer em controles.
 

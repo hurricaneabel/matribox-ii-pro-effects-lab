@@ -44,3 +44,7 @@ O proprietário confirmou funcionamento físico de estados, controles e undo/red
 ## Looper SysEx V4 — 17/10/2026
 
 O proprietário confirmou funcionamento físico de estados, controles e undo/redo. O log contém 57 mensagens com cinco UNDO e cinco REDO. Sem resumos periódicos; mudanças internas de histórico durante overdub também geram eventos. Veja [protocolo, instalação e limites](looper-sysex.md).
+
+## Windows 11: atualização completa confirmada — 17/10/2026
+
+Após selecionar USB Audio Device (`usbaudio`) nos dispositivos dos modos normal (PID 0282) e firmware (PID 0283), a consulta do looper, a identificação do bootloader e uma atualização completa da V4 funcionaram no host Windows 11. A transferência foi confirmada pelo usuário; não houve análise de captura desta sessão. [Guia](windows11-update.md) e [resultado](../evidence/windows11-update-result.json).
