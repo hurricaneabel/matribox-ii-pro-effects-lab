@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "hardware_tested": false,
+  "firmware_sha256": "ff3cded00a1d7d0ef36f67d7da0627abada64c1c17016702cb5f97c4e984a800",
+  "firmware_bytes": 6786304,
+  "base_firmware_sha256": "08c58de48ddf128a06685e996239b16a213e809f962df958d0dd08465b75af2b",
+  "main_bytes_changed": 69,
+  "all_library_and_DSP_bytes_identical": true,
+  "both_resource_blocks_byte_identical": true,
+  "all_IDs_indices_and_parameters_unchanged": true,
+  "native_editor_next_previous_cases": 610,
+  "AMP_MOD_DLY_removals_tested": true,
+  "native_GUI_lists": 45,
+  "native_GUI_selection_cases": 506,
+  "native_current_selection_cases": 305,
+  "vendor_checksum_and_negative_control_passed": true,
+  "firmware_file": "QME-200_V1.2.2_LAB5_EXPERIMENTAL.bin",
+  "public_tag": "v1.2.2-lab.5",
+  "physical_scope": {
+    "owner_approved_remaining_added_effects": true,
+    "Dark_VIT_and_existing_CABs_confirmed": true,
+    "eight_later_cabinets_individually_confirmed": false,
+    "latest_editor_navigation_fix_physically_confirmed": false
+  },
+  "excluded_repository_scope": "No matribox-sysex application code or application change notes included."
+}

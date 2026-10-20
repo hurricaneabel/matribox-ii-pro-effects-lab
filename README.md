@@ -2,6 +2,10 @@
 
 Pesquisa independente sobre o catálogo de efeitos, firmware e protocolo USB da **SONICAKE Matribox II Pro**, incluindo um port experimental do **Penesas da Valeton GP-200**.
 
+**Nova pre-release (20/10/2026):** [Lab 5 — firmware, efeitos e origens](docs/lab5-firmware.md): indicador DSP na tela, 29 modelos portados da GP-200 no total, nove cabinets nativos, Cab Match, subclasses, defaults de microfones e corretivo da navegacao lateral. A ultima correcao de navegacao ainda aguarda confirmacao fisica. Veja o escopo dos testes antes de instalar pela [aba Releases](https://github.com/hurricaneabel/matribox-ii-pro-effects-lab/releases).
+
+Os registros abaixo datados de 17/10 documentam a Lab 4 e os experimentos anteriores.
+
 **Novidade (17/10/2026):** [looper com retorno SysEx, incluindo undo/redo](docs/looper-sysex.md), testado fisicamente. Firmware completo e monitor na [aba Releases](https://github.com/hurricaneabel/matribox-ii-pro-effects-lab/releases), como versão experimental.
 
 **Referência de efeitos (17/10/2026):** microfones integrados nos cabinets de fábrica e nos IRs importados, com nomes no Mic Type e controles X/Y/Z. O proprietário confirmou 20 dos 61 cabinets, alternando microfones e posições, e depois confirmou funcionamento nos User IR. A candidata local tem 189 registros e remove o módulo de microfone separado da MOD. Veja [resultados, implementação e limites](docs/cabinet-microphones.md).
